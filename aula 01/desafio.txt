@@ -1,0 +1,8 @@
+Programa para calcular valor de uma viagem 
+
+Voce terá terá 3 variaveis, sendo elas: 
+1 - Preço do Combustível  
+2 - Gasto médio de commbustível do carro por KM; 
+3 - Distância em KM da viagem; 
+
+Imprima no Console o Valor que será gasto de Combustível para realizar a viagem
