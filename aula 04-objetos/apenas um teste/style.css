@@ -5,15 +5,17 @@
 
 body {
     text-align: center;
-    margin-top: 400px; 
+    margin-top: 85px; 
     background-color: black; 
-    background-image: linear-gradient(to left, black, gray);
+    background-image: linear-gradient(to left, black, gray); 
+    display: grid; 
+    grid-column: ; 
 } 
 
-.porcentagem {
+.porcentagem, .juros{
     background-color: #999; 
-    margin: 0px 550px 0px 550px; 
-    padding: 60px;
+    margin: 35px 550px 0px 550px; 
+    padding: 20px;
     border: none;
     border-radius: 25px; 
 }
@@ -38,6 +40,14 @@ h1 {
 } 
 
 button {
+    padding: 5px 95px 5px 95px;  
+    border: none; 
+    border-radius: 15px; 
+    margin: 10px 0px 0px 0px;
+}
+
+button:hover {
+    background-color: #777;
     padding: 5px 95px 5px 95px;  
     border: none; 
     border-radius: 15px; 
