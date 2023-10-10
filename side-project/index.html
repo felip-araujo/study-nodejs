@@ -7,7 +7,70 @@
     <link rel="stylesheet" href="style.css">
     <title>Gastos Mensais</title>
 </head>
-<body>
+<body>  
+    <div id="captar-renda">
+        <form action="">
+            <h1 class="h1-g">Caderno de Custos</h1>
+            <label for="rendaMensal">Renda Mensal: </label> 
+            <input type="number" id="rendaMensal" class="inp1"> 
+            <label for="">Renda Rotativa: </label>
+            <input type="number" id="rendaRotativa" placeholder="caso haja" class="inp2"> 
+        </form>
+    </div> 
+
+    <div id="captar-gastos"> 
+        <h1>Gastos Essenciais</h1>
+        <form action="">
+            <label for="">Aluguel: </label>
+            <input type="number" placeholder="caso haja" id="aluguel" class="inp2">
+            <label for="">Transporte:</label>
+            <input type="number" placeholder="caso haja" id="transporte" class="inp2">
+            <label for="">Alimentação: </label> 
+            <input type="number" placeholder="caso haja" id="alimentacao" class="inp2"> <br>
+            <label for="">Agua:</label> 
+            <input type="number" id="agua" placeholder="caso haja" class="inp2">
+            <label for="">Luz Elétrica</label>
+            <input type="number" id="luz" placeholder="caso haja" class="inp2"> 
+            <label for="">Gás: </label>
+            <input type="number" id="gas" placeholder="caso haja" class="inp2">  
+        </form>  
+    </div>
+        
+<div id="captar-gastos2">
+    <form action="" id="captar-gastos2">
+    <h1>Gastos Dispensáveis: </h1>
+    <label for="">Serviços de Stream: </label>
+    <input type="number" id="stream" placeholder="Ex.: Spotify, Netflix.." class="inp2"> 
+    <label for="">Lazer: </label>
+    <input type="number" id="lazer" placeholder="Cinema, Restaurante, Academia.." class="inp2">                 
+    </form>  
+</div> 
+
+<div id="captar-reserva">
+    <form action="" id="captar-reserva">
+        <h1>Reserva de Emergência: </h1>
+        <label for="">Valor Reservado: </label>
+        <input type="number" placeholder="Valor reservado para emergencias" class="inp2">
+        </form>
+</div>
+
+<div id="captar-credito">
+    <form action="" id="captar-credito">
+        <h1>Custos com Cartão de Crédito e/ou Financiamentos</h1> 
+        <label for="">Cartões de Crédito</label>
+        <input type="number" placeholder="Valor Fatura Cartão" class="ipn2" id="cartao">
+        <label for="">Financiamentos</label> 
+        <input type="number" placeholder="Valor da Parcela" class="ipn2" id="financiamento">
+    </form>
+</div>
+    <br><button onclick="somadeRendas(), somaGastos(), somarGastosDispensaveis(), credito(), rendaMenosGastos() "> Enviar </button>
+
+    <div id="inserir-relatorio">
+
+    </div>
+    
+
+    
     
 
 
