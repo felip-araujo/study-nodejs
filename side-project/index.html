@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(min-width: 920px)" href="/side-project/css/style.css">
+    <link rel="stylesheet" media="(max-width: 900px)" href="/side-project/css/mobile.css">
+
     <title>Gastos Mensais</title>
 </head>
 <body>  
@@ -38,7 +40,7 @@
 
                 <div id="captar-gastos2">
                     <form action="" id="captar-gastos2">
-                    <h1>Gastos Dispensáveis:</h1>
+                    <h1 id="GD">Gastos Dispensáveis:</h1>
                     <label for="">Serviços de Stream: </label>
                     <input type="number" id="stream" placeholder="Ex.: Spotify, Netflix.." class="inp2"> 
                     <label for="">Lazer: </label>
@@ -47,7 +49,7 @@
                 </div> 
                     <div id="captar-reserva">
                     <form action="" id="captar-reserva">
-                    <h1>Reserva: </h1>
+                    <h1 id="GR">Reserva: </h1>
                     <label for="">Valor Reservado: </label>
                     <input type="number" placeholder="Reserva de Energência"class="inp2">
                     </form>
@@ -55,7 +57,7 @@
 
                 <div id="captar-credito">
                 <form action="" id="captar-credito">
-                <h1> Crédito </h1> 
+                <h1 id="GC"> Crédito </h1> 
                 <label for="">Cartões de Crédito</label>
                 <input type="number" placeholder="Valor Fatura Cartão" class="ipn2" id="cartao">
                 <label for="">Financiamentos</label> 

@@ -14,7 +14,9 @@
     padding-left: 20px;
     padding-right: 20px; 
     padding-bottom: 65px;
-    background-color: black;
+    background-color: black;  
+    background-image: linear-gradient(to right, rgba(0,0,0, 0.9) 55%, rgba(0,0,0,0)), url(/side-project/mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.jpg);
+    background-size: cover;
     color: white; 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -28,7 +30,7 @@
 
 #captar-gastos, #captar-gastos2, #captar-reserva, #captar-credito, #caderno{
     padding: 18px;
-    background-color: gray; 
+    background-color: #4443; 
     margin: 5px;
     border-radius: 10px;
     align-items: center;
@@ -56,7 +58,7 @@ button{
     font-weight: 600;
     color: white; 
     font-size: 1.11rem;
-    background-color: green;
+    background-color: rgb(5, 52, 105);
     padding: 10px 140px; 
     margin-top: 00px; 
     border: none;
@@ -68,11 +70,12 @@ button:hover{
     font-weight: 600;
     color: white; 
     font-size: 1.11rem;
-    background-color: orange;
+    background-color:  rgb(7, 99, 204);
     padding: 10px 140px; 
     margin-top: 0px; 
     border: none;
-    border-radius: 20px; 
+    border-radius: 20px;  
+    transition: color, ease-in-out 0.2s;
 } 
 
 #btn {
@@ -83,3 +86,11 @@ button:hover{
     align-content: center;
     align-self: center;
 }
+
+#GD,#GR,#GC{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -32px;
+    border-bottom: none;
+}
+
