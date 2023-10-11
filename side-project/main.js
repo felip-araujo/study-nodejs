@@ -34,7 +34,6 @@ function credito(){
     resultado4 = parseInt(cartao) + parseInt(financiamento); 
 
     console.log ('Os valores relacionados a crédito são: ' + resultado4); 
-
 }
 
 function rendaMenosGastos() {
