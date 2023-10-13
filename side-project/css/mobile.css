@@ -9,6 +9,8 @@
 }
 
 #captar-renda{
+    background-image: linear-gradient(to right, rgba(0,0,0, 0.9) 55%, rgba(0,0,0,0)), url(/side-project/mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.jpg);
+    /* background-image: linear-gradient(to bottom,  gray, rgba(0, 246, 193, 0.141)); */
     background-color: gray;
     padding: 25px; 
     display: block
@@ -17,13 +19,16 @@
 
 #captar-gastos, #captar-gastos2, #captar-reserva, #captar-credito, #caderno{
     padding: 18px;
-    background-color: #4443; 
-    margin: 5px;
+    background-color: #7776;  
+    color: white; 
+    margin-bottom: 15px;
+    margin: 5px 10px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
     text-align: center; 
-    justify-self: center;
+    justify-self: center; 
+
 }
 
 h1 {
@@ -35,7 +40,7 @@ label {
     font-family: 'Open Sans', sans-serif;
     font-size: 13;
     padding: 0px; 
-    border-radius: px;
+    border-radius: 0px;
     margin-top: 0px;
 }  
 
@@ -44,5 +49,52 @@ input {
     font-size: 13px; 
     padding: 2px;
     padding-left: 0px;
-    padding-right: 0px; 
+    padding-right: 0px;  
+    border-radius: 4px;
+} 
+
+#btn {
+    background-color: #999; 
+    padding: 10px; 
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center; 
+}  
+button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white; 
+    font-size: 0.7rem;
+    background-color:  blue;
+    padding: 10px 35px; 
+    margin-top: 0px; 
+    border: none;
+    border-radius: 8px; 
+}
+
+button:hover{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white; 
+    font-size: 0.7rem;
+    background-color:  rgb(7, 99, 204);
+    padding: 10px 35px; 
+    margin-top: 0px; 
+    border: none;
+    border-radius: 8px;  
+    transition: color, ease-in-out 0.2s;
+}
+
+
+#cbd{
+    background-color: #7776;  
+    /* background-color: gray;  */
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding-top: 0px;
+    padding: 15px; 
+    
 }

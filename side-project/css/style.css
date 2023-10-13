@@ -7,10 +7,17 @@
     border: 0;
 }
 
+#cbd{
+    background-color: #555;  
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding: 15px; 
+}
+
 #captar-renda{
-    
-    
-    padding: 160px; 
+    padding-top: 75px; 
     padding-left: 20px;
     padding-right: 20px; 
     padding-bottom: 65px;
@@ -24,13 +31,11 @@
     justify-content: start;
     align-items:normal; 
     text-align: start;
-    
-    
 }  
 
 #captar-gastos, #captar-gastos2, #captar-reserva, #captar-credito, #caderno{
     padding: 18px;
-    background-color: #4443; 
+    background-color: #7776; 
     margin: 5px;
     border-radius: 10px;
     align-items: center;
@@ -90,7 +95,7 @@ button:hover{
 #GD,#GR,#GC{
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: -32px;
+    margin-top: -8px;
     border-bottom: none;
 }
 
